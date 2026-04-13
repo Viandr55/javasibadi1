@@ -1,5 +1,9 @@
 package academy.tochkavhoda.school;
 
+import academy.school.Trainee;
+import academy.school.TraineeMap;
+import academy.school.TrainingErrorCode;
+import academy.school.TrainingException;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

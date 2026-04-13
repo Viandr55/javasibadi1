@@ -1,5 +1,9 @@
 package academy.tochkavhoda.school;
 
+import academy.school.Trainee;
+import academy.school.TraineeBidiMap;
+import academy.school.TrainingErrorCode;
+import academy.school.TrainingException;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;
@@ -196,7 +200,7 @@ public class TestTraineeBidiMap {
         traineeBidiMap.addTrainee(trainee1, "123456");
         traineeBidiMap.addTrainee(trainee2, "123457");
         traineeBidiMap.addTrainee(trainee3, "123458");
-        Set<String> institutes = traineeBidiMap.getAllpassports();
+        Set<String> institutes = traineeBidiMap.getAllPassports();
         assertEquals(3, institutes.size());
     }
 

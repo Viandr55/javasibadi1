@@ -1,5 +1,8 @@
 package academy.tochkavhoda.school;
 
+import academy.school.Trainee;
+import academy.school.TraineeQueue;
+import academy.school.TrainingException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
